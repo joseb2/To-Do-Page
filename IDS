@@ -1,0 +1,36 @@
+bodyHeaderBar
+bodyHeaderLeft <
+
+menu
+home
+search
+
+>
+
+bodyHeadeRight
+
+
+sideBar<
+list
+list
+>
+
+main
+	mainHeader (class header)
+		mainderHeaderLeft (class headerLeft)
+	
+		headerRight (class) 
+			filter
+	
+	content
+	
+
+
+where would i put this grid area: 
+
+header header header
+sidebar main main
+sidebar main main
+sidebar main main 
+
+within this html: 
