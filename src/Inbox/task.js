@@ -8,6 +8,8 @@ export default class Task {
   }
 }
 
+// above object does not have included a fifth value, adjust that 
+// for addTask.
 
 
 /*prompt that highlights a div/span of icon and words "add task"

@@ -26,6 +26,20 @@ main
 	
 
 
+	 // styles for taskForm Div and children
+
+    taskForm.style.cssText = ` 
+      display: flex;
+      flex-direction: column;
+      width: auto;      
+    `; 
+  
+    dueDateButton.style.cssText = `
+      width: 50px;
+    
+    `;
+
+
 where would i put this grid area: 
 
 header header header
@@ -34,3 +48,11 @@ sidebar main main
 sidebar main main 
 
 within this html: 
+ 
+
+How can i accomplish this style within my taskForm div 
+
+taskName Input Field
+taskDescription Input Field 
+Due Date Input randomButton randomButton
+													Cancel-Button AddTask-Button

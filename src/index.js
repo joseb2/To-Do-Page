@@ -1,22 +1,19 @@
-import inboxHeader from "./Inbox/inboxHeader.js"
+// index.js
+import inboxHeader from "./Inbox/inboxHeader.js";
 import addTask from "./Inbox/addTask.js";
+import Task from "./Inbox/task.js"
 
-let taskList = [];
-console.log("reeeee");
+const taskList = [];
+
 inboxHeader();
-
+addTask(addNewTask);
 
 function addNewTask(task) {
-    taskList.push(task);
-    console.log({taskList});
-  }
-  
-  addTask(addNewTask);
+  taskList.push(task);
+  console.log({ taskList });
 
+taskList.forEach(task => {
+  console.log(task);
+}); 
 
-// add task button 
-// event listener for that
-// pops the dialogue from add task. 
-// button form click takes from task
-// appends new task 
-
+}
